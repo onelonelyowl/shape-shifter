@@ -1,0 +1,16 @@
+{
+  "name": "shape-shifter",
+  "version": "1.0.0",
+  "description": "A library for working with shapes",
+  "scripts": {
+    "test": "jest",
+    "test:easy": "jest ./test/easy.test.js",
+    "test:medium": "jest ./test/medium.test.js",
+    "test:hard": "jest ./test/hard.test.js"
+  },
+  "author": "multiverse",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
