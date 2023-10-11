@@ -5,9 +5,9 @@
  * @param {number} c - the last side
  * @returns {number} the perimeter
  */
-
+// c was lower case
 function trianglePerimeter (a, b, c) {
-  return a + b + C
+  return a + b + c
 }
 
 module.exports = trianglePerimeter

@@ -4,9 +4,9 @@
  * @param {number} b - the height
  * @returns {number} the perimeter
  */
-
+// no brackest was the issue i guess
 function rectanglePerimeter (a, b) {
-  return 2 * a + b
+  return (2 * (a + b))
 }
 
 module.exports = rectanglePerimeter

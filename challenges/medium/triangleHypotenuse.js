@@ -5,9 +5,9 @@
  * @param {number} b - the other side length
  * @returns {number} the hypotenuse
 */
-
+//Math.sqrt and ** instead of ^
 function triangleHypotenuse (a, b) {
-  return sqrt(a^2 + b^2)
+  return Math.sqrt(a**2 + b**2)
 }
 
 module.exports = triangleHypotenuse

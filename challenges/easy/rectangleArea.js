@@ -4,9 +4,9 @@
  * @param {number} b - the height
  * @returns {number} the area
  */
-
+//no return?
 function rectangleArea (a, b) {
-  a * b
+  return a * b
 }
 
 module.exports = rectangleArea

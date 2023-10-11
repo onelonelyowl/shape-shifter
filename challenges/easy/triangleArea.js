@@ -5,9 +5,9 @@ const rectangleArea = require('./rectangleArea')
  * @param {number} b - the height
  * @returns {number} the area
  */
-
+// used rectangleArea for some reason
 function triangleArea(a, b) {
-  return rectangleArea / 2
+  return (a / 2) * b
 }
 
 module.exports = triangleArea

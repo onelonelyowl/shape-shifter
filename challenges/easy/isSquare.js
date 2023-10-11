@@ -4,12 +4,12 @@
  * @param {number} b - the height
  * @returns {boolean}
  */
-
+// false typo
 function isSquare (a, b) {
-  if (a = b) {
+  if (a === b) {
     return true
   } else {
-    return flase
+    return false
   }
 }
 

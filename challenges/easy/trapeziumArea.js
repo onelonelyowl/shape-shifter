@@ -6,8 +6,9 @@
  * @returns {number} the area
  */
 
+// used const instead of var
 function trapeziumArea (a, b, h) {
-  const m = a + b
+  var m = a + b
   m = m / 2
   return m * h
 }

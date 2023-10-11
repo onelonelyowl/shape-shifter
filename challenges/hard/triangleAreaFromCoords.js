@@ -8,7 +8,12 @@
 
 function triangleAreaFromCoords (points) {
   [A, B, C] = points
-  return 0.5 * ((A.x * B.x + B.x * C.x + C.x * A.x) - (A.y * B.y + B.y * C.y + C.y * A.y))
+  const shoelace1 = [A.x, B.x, C.x, A.x]
+  const shoelace2 = [A.y, B.y, C.y, A.y]
+  var firstClump = (shoelace1[0] * shoelace2[1]) + (shoelace1[1] * shoelace2[2]) + (shoelace1[2] * shoelace2[3])
+  var secondClump = (shoelace2[0] * shoelace1[1]) + (shoelace2[1] * shoelace1[2]) + (shoelace2[2] * shoelace1[3])
+
+  return 0.5 * (firstClump - secondClump)
 }
 
 module.exports = triangleAreaFromCoords
